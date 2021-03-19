@@ -9,10 +9,37 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url('105.JPG') ;
-  min-height: 50%;
+  background-image: url('img1.JPG') ;
+  min-height: 90%;
 }
 
 .w3-bar .w3-button {
   padding: 16px;
+}
+
+.body-p{
+  font-family: 'Noto Sans JP', sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  white-space: pre-wrap;
+  margin-left: 10em;
+}
+.img-p{
+  margin-bottom: 110%;
+  color:black;
+  font-size: 190%;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-left: 9px;
+}
+.img-logo{
+  width:100px;
+  height:60px;
 }
