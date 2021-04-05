@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -22,7 +23,6 @@
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -48,7 +48,8 @@
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <p class="img-p">Urbenz Organizing</p>
+    <p class="p1">Urbenz Organizing</p>
+    <!-- <a href="/">Urbenz Organizing</a> -->
   </div> 
   <!-- <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -61,11 +62,13 @@
 </header>
 
 <!-- About Section -->
-<div style="padding:110px 10px" id="about">
+<div class="w3-container" style="padding:110px 10px" id="about">
   <p class="body-p">My name is Tina and I am a professional organizer.Enchanted with organizing and decluttering,<br>since I was a teenager.My siblings nicknamed me Cinderella,because I was always tidying up the <br> house and keeping up with the laundry,of course. </p>
-  <p class="body-p">Every season my Mom and I would declutter the closests. We always had a great time doing this together.<br>When it came to creating space in our home. My Mom was the expert who I learned from. She created <br>a living room that made one feel like they were in a room at Chateau Versailles.With my parents' love for <br>Antique furniture,french tablecloths and with my Moms natural flare to create a European ambiance <br>in our home. This was the beginning of my inherited skills from my Mom.</p>
+   <img class="w3-image w3-round-large img-p" src="./images/img2.jpg">
+   <p class="body-p">Every season my Mom and I would declutter the closests. We always had a great time doing this together.<br>When it came to creating space in our home. My Mom was the expert who I learned from. She created <br>a living room that made one feel like they were in a room at Chateau Versailles.With my parents' love for <br>Antique furniture,french tablecloths and with my Moms natural flare to create a European ambiance <br>in our home. This was the beginning of my inherited skills from my Mom.</p>
   <p class="body-p">Hence, I am passionate to help clients organize their home and office space to give them peace of mind.<br>I rearrange furniture, choose color paint palettes and declutter items. I bring with me an Adult Teacher <br>Education Diploma from Memorial University of Newfoundland. A four course program of study in<br>Home Staging through Seneca College of Applied Arts Toronto Ontario through the Newnham campus.</p>
   <p class="body-p">I look forward to hearing from you.</p>
+  <a class = "attribute" href = "https://www.saltwire.com/atlantic-canada/lifestyles/tina-urbenz-putting-her-organizing-skills-to-work-as-she-clears-out-her-parents-corner-brook-home-142201/" >Read more about me</a>
 </div>
 
 <!-- Promo Section - "We know design" -->
@@ -155,7 +158,7 @@
 </div> -->
 
 <!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
+<div class="w3-container" style="padding:75px 16px" id="work">
   <h3 class="w3-center">MY WORK</h3>
   <p class="w3-center w3-large">What I have done for people</p>
 
@@ -187,8 +190,8 @@
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
     </div>
-  </div> -->
-</div>
+  </div>
+</div> -->
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -285,11 +288,11 @@
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <p class="w3-center w3-large">Lets get in touch. Send me a message:</p>
   <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Petawawa, ON </p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: tinaurbenz@gmail.com</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ottawa Valley </p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 613-281-1750</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: urbenzorganizing@gmail.com</p>
     <br>
     <form method ="POST"
     action="mailto:deepthyp1991@gmail.com"
@@ -311,7 +314,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
+<!-- <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -321,6 +324,6 @@
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-</footer>
+</footer> -->
 </body>
 </html>

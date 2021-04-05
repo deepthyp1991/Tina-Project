@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans JP', sans-serif;}
 
 body, html {
   height: 100%;
@@ -27,7 +27,7 @@ body, html {
   white-space: pre-wrap;
   margin-left: 10em;
 }
-.img-p{
+.p1{
   margin-bottom: 110%;
   color:black;
   font-size: 190%;
@@ -42,4 +42,39 @@ body, html {
 .img-logo{
   width:100px;
   height:60px;
+}
+.img-p{
+  left: 65%;
+  top: 110%;
+  max-width: 100%;
+  display:block;
+  height: auto;
+  position: absolute;
+}
+
+.attribute{
+  color:black;
+  font-size: 190%;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-left: 5em;
+}
+.attribute:hover{
+  color:red;
+}
+
+@media only screen and (min-width:400px) and (max-width: 600px) {
+  .body-p {
+    display: flex;
+    flex-direction: row;
+  }
+  .img p{
+    max-width: 100%;
+    display: block;
+    height:auto;
+  }
 }
