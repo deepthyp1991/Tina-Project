@@ -44,6 +44,8 @@ body, html {
   height:60px;
 }
 .img-p{
+  display: flex;
+  flex-wrap: wrap;
   left: 65%;
   top: 110%;
   max-width: 100%;
@@ -74,7 +76,8 @@ body, html {
   }
   .img p{
     max-width: 100%;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     height:auto;
   }
 }
